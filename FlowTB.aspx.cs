@@ -18,6 +18,7 @@ public partial class FlowTB : System.Web.UI.Page
     }
     protected void OnClick2(object sender, EventArgs e)
     {
+        Session["TipMaterial"] = "Bead";
         Response.Redirect("MotiveApex.aspx");
     }
 }
