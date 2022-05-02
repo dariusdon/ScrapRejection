@@ -11,4 +11,8 @@ public partial class MasinaAPEX : System.Web.UI.Page
     {
 
     }
+    protected void OnClick1(object sender, EventArgs e)
+    {
+        Response.Redirect("RaportOperatori.aspx");
+    }
 }

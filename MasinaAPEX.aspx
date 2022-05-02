@@ -33,7 +33,7 @@
                 <asp:TextBox ID="TextBox1" Font-Size ="25px"  runat="server" Width="118px"></asp:TextBox>
             </p>
             <p style="margin-left:49%;margin-top:300px">
-                <asp:Button ID="Button1" Font-Size="30px"  runat="server" Text="Salveaza"/>
+                <asp:Button ID="Button1" Font-Size="30px"  runat="server" Text="Salveaza" OnClick="OnClick1"/>
             </p>
         </div>
     </form>
