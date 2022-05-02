@@ -20,7 +20,7 @@
              <asp:Label ID="Label4" Font-Bold="true" Font-Size="35px" ForeColor="Orange" runat="server" Text="Pagina Selectie"></asp:Label>
              <br/>
              <br/>
-            <div style="margin-left: -200px;">
+            <div style="margin-left: -200px; margin-top:100px">
                 <asp:Button ID="Button1" runat="server" Text="Scanare Masina TB" Width="600px" Height="150px" Font-Bold="true" Font-Size ="35px" OnClick="OnClick1"/>
                 <br/>
                 <br/>
