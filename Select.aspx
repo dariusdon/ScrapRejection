@@ -20,14 +20,14 @@
              <asp:Label ID="Label4" Font-Bold="true" Font-Size="35px" ForeColor="Orange" runat="server" Text="Pagina Selectie"></asp:Label>
              <br/>
              <br/>
-            <div style="margin-left: 100px;">
-                <asp:Button ID="Button1" runat="server" Text="Kilograme" Width="200px" Height="60px" Font-Bold="true" Font-Size ="30px" OnClick="OnClick1"/>
+            <div style="margin-left: -200px;">
+                <asp:Button ID="Button1" runat="server" Text="Scanare Masina TB" Width="600px" Height="150px" Font-Bold="true" Font-Size ="35px" OnClick="OnClick1"/>
                 <br/>
                 <br/>
-                <asp:Button ID="Button2" runat="server" Text="Metri" Width="200px" Height="60px" Font-Bold="true" Font-Size ="30px" OnClick ="OnClick2"/>
+                <asp:Button ID="Button2" runat="server" Text="Scanare Statie Rework" Width="600px" Height="150px" Font-Bold="true" Font-Size ="35px" OnClick ="OnClick2"/>
                 <br/>
                 <br/>
-                 <asp:Button ID="Button3" runat="server" Text="Metri" Width="200px" Height="60px" Font-Bold="true" Font-Size ="30px" OnClick ="OnClick3"/>
+                 <asp:Button ID="Button3" runat="server" Text="Scanare Masina Apex/Bead" Width="600px" Height="150px" Font-Bold="true" Font-Size ="35px" OnClick ="OnClick3"/>
             </div>
         </div>
     </form>
