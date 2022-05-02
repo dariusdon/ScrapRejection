@@ -11,4 +11,13 @@ public partial class FlowTB : System.Web.UI.Page
     {
 
     }
+    protected void OnClick1(object sender,EventArgs e)
+    {
+        Session["TipMaterial"] = "Bentita";
+        Response.Redirect("MotiveApex.aspx");
+    }
+    protected void OnClick2(object sender, EventArgs e)
+    {
+        Response.Redirect("MotiveApex.aspx");
+    }
 }

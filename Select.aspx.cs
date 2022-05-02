@@ -13,14 +13,14 @@ public partial class Select : System.Web.UI.Page
     }
     protected void OnClick1(object sender,EventArgs e)
     {
-        Response.Redirect("MasinaTB.aspx");
+        Response.Redirect("FlowTB.aspx");
     }
     protected void OnClick2(object sender, EventArgs e)
     {
-        Response.Redirect("StatieRW.aspx");
+        Response.Redirect("MotiveApex.aspx");
     }
     protected void OnClick3(object sender, EventArgs e)
     {
-        Response.Redirect("MasinaApex.aspx");
+        Response.Redirect("MotiveApex.aspx");
     }
 }
