@@ -63,17 +63,17 @@ public partial class Select : System.Web.UI.Page
     }
     protected void OnClick1(object sender,EventArgs e)
     {
-        Session["Tipmaterial"] = "";
+        Session["Masina"] = "SituatiaA";
         Response.Redirect("FlowTB.aspx");
     }
     protected void OnClick2(object sender, EventArgs e)
     {
-        Session["Tipmaterial"] = "";
+        Session["Masina"] = "SituatiaB";
         Response.Redirect("MotiveApex.aspx");
     }
     protected void OnClick3(object sender, EventArgs e)
     {
-        Session["Tipmaterial"] = "";
+        Session["Masina"] = "SituatiaC";
         Response.Redirect("MotiveApex.aspx");
     }
 }
