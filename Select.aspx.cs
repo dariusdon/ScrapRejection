@@ -63,14 +63,27 @@ public partial class Select : System.Web.UI.Page
     }
     protected void OnClick1(object sender,EventArgs e)
     {
-        Session["Masina"] = "SituatiaA";
-        Response.Redirect("FlowTB.aspx");
+        Session["Masina"] = TextBox1.Text;
+        if((string)Session["Masina"] == "TBM01" || (string)Session["Masina"] == "TBMM02" || (string)Session["Masina"] == "TBM03" || (string)Session["Masina"] == "TBM04" || (string)Session["Masina"] == "TBM05" || (string)Session["Masina"] == "TBM06" || (string)Session["Masina"] == "TBM07" || (string)Session["Masina"] == "TBM08" || (string)Session["Masina"] == "TBM09" || (string)Session["Masina"] == "TBM10" ||
+                (string)Session["Masina"] == "TBM11" || (string)Session["Masina"] == "TBM12" || (string)Session["Masina"] == "TBM13" || (string)Session["Masina"] == "TBM14" || (string)Session["Masina"] == "TBM15" || (string)Session["Masina"] == "TBM16" || (string)Session["Masina"] == "TBM17" || (string)Session["Masina"] == "TBM18" || (string)Session["Masina"] == "TBM19" || (string)Session["Masina"] == "TBM20" ||
+                (string)Session["Masina"] == "TBM21" || (string)Session["Masina"] == "TBM22" || (string)Session["Masina"] == "TBM23" || (string)Session["Masina"] == "TBM24" || (string)Session["Masina"] == "TBM25" || (string)Session["Masina"] == "TBM26" || (string)Session["Masina"] == "TBM27" || (string)Session["Masina"] == "TBM28" || (string)Session["Masina"] == "TBM29" || (string)Session["Masina"] == "TBM30" ||
+                (string)Session["Masina"] == "TBM31" || (string)Session["Masina"] == "TBM32" || (string)Session["Masina"] == "TBM33" || (string)Session["Masina"] == "TBM34" || (string)Session["Masina"] == "TBM35" || (string)Session["Masina"] == "TBM36" || (string)Session["Masina"] == "TBM37" || (string)Session["Masina"] == "TBM38" || (string)Session["Masina"] == "TBM39" || (string)Session["Masina"] == "TBM40" ||
+                (string)Session["Masina"] == "TBM41" || (string)Session["Masina"] == "TBM42" || (string)Session["Masina"] == "TBM44")
+        {
+            Response.Redirect("FlowTB.aspx");
+        }
+        if ((string)Session["Masina"] == "BAA01" || (string)Session["Masina"] == "BAA02" || (string)Session["Masina"] == "BAA03" || (string)Session["Masina"] == "BAA04" || (string)Session["Masina"] == "BAA05" ||
+            (string)Session["Masina"] == "BAA06" || (string)Session["Masina"] == "BAA07" || (string)Session["Masina"] == "BAA08" || (string)Session["Masina"] == "BAA09" || (string)Session["Masina"] == "BAA10" ||
+            (string)Session["Masina"] == "BAA11" || (string)Session["Masina"] == "BAA12" || (string)Session["Masina"] == "BAA13" || (string)Session["Masina"] == "BAA14" || (string)Session["Masina"] == "BAA15")
+        {
+            Response.Redirect("MotiveApex.aspx");
+        }
+        if ((string)Session["Masina"] == "STATIERWAPEX")
+        {
+            Response.Redirect("MotiveApex.aspx");
+        }
     }
-    protected void OnClick2(object sender, EventArgs e)
-    {
-        Session["Masina"] = "SituatiaB";
-        Response.Redirect("MotiveApex.aspx");
-    }
+   
     protected void OnClick3(object sender, EventArgs e)
     {
         Session["Masina"] = "SituatiaC";

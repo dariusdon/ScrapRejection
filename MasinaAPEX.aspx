@@ -29,9 +29,23 @@
                 <br/>
                 <br/>
                 <br/>
-                <asp:Label ID="Label2" runat="server" Font-Bold="true" Font-Size="25px" ForeColor="Orange" Text="Selecteaza Profil:"></asp:Label>
-                <asp:DropDownList ID="DropDownList2" Font-Size="25px" BackColor="Orange" ForeColor="Black" runat="server" Width="100px">
-                <asp:ListItem Text="Profil"></asp:ListItem>
+                <asp:Label ID="Label2" runat="server" Font-Bold="true" Font-Size="25px" ForeColor="Orange" Text="Selecteaza Tip Profil:"></asp:Label>
+                <asp:DropDownList ID="DropDownList2" Font-Size="25px" BackColor="Orange" ForeColor="Black" runat="server" Width="135px">
+                <asp:ListItem Text="A00205" Value="A00205"></asp:ListItem>
+                <asp:ListItem Text="A00268" Value="A00268"></asp:ListItem>
+                <asp:ListItem Text="A00829" Value="A00829"></asp:ListItem>
+                </asp:DropDownList>
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                 <asp:Label ID="Label5" runat="server" Font-Bold="true" Font-Size="25px" ForeColor="Orange" Text="Selecteaza Caseta Profil:"></asp:Label>
+                <asp:DropDownList ID="DropDownList3" Font-Size="25px" BackColor="Orange" ForeColor="Black" runat="server" Width="100px">
+                <asp:ListItem Text="4x4" Value="4x4"></asp:ListItem>
+                <asp:ListItem Text="4x5" Value="4x5"></asp:ListItem>
+                <asp:ListItem Text="5x5" Value="5x5"></asp:ListItem>
+                <asp:ListItem Text="5x6" Value="5x6"></asp:ListItem>
+                <asp:ListItem Text="6x6" Value="6x6"></asp:ListItem>
                 </asp:DropDownList>
                 <br/>
                 <br/>

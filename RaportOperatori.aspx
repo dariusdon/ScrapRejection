@@ -19,7 +19,7 @@
         </div>
   
      <div style="margin-top:50px; margin-left:100px">
-              <asp:GridView ID="GridView1" Width="1542px" AllowPaging="true" Font-size="20px"  runat="server" HeaderStyle-BackColor="#ffa500" HeaderStyle-ForeColor="Black" PageSize="20" style="margin-right: 0px" Height="310px">
+              <asp:GridView ID="GridView1" OnPageIndexChanging="GrdEmp_PageIndexChanging" Width="1700px" AllowPaging="true" Font-size="20px"  runat="server" HeaderStyle-BackColor="#ffa500" HeaderStyle-ForeColor="Black" PageSize="20" style="margin-right: 0px">
          
          <PagerSettings mode="Numeric"
           position="Bottom"           

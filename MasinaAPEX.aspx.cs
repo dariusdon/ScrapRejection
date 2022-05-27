@@ -13,6 +13,7 @@ public partial class MasinaAPEX : System.Web.UI.Page
     public double overall = 0.00;
     public double greutate = 0.00;
     public string profil = "";
+    
     protected void Page_Load(object sender, EventArgs e)
     {
 
@@ -74,7 +75,8 @@ public partial class MasinaAPEX : System.Web.UI.Page
             Session["masura"] = "g";
         }
         DropDownList1.Text = "Numar Toli";
-        profil = DropDownList2.Text;
+        profil = DropDownList2.Text + " " + toli + " INCH" + " " + DropDownList3.Text;
+       
         TextBox1.Text = "";
         string constr = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
         using (SqlConnection con = new SqlConnection(constr))

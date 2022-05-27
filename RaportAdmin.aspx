@@ -17,7 +17,7 @@
            
         </div>
         
-              <asp:GridView ID="GridView1" Width="1600px" AllowPaging="true" Font-size="20px"  runat="server" HeaderStyle-BackColor="#ffa500" HeaderStyle-ForeColor="Black" PageSize="18"   >
+              <asp:GridView ID="GridView1" OnPageIndexChanging="GrdEmp_PageIndexChanging" Width="1900px" AllowPaging="true" Font-size="20px"  runat="server" HeaderStyle-BackColor="#ffa500" HeaderStyle-ForeColor="Black" PageSize="18"   >
          
          <PagerSettings mode="Numeric"
           position="Bottom"           
@@ -48,13 +48,13 @@
                  <asp:TextBox ID="TextBox8" TextMode="Time" Width="150px"  runat="server"></asp:TextBox>
                   &nbsp;&nbsp;&nbsp;
                  <asp:DropDownList ID="DropDownList1" Font-Size="20px" runat="server" Height="30px" Width="146px">
-                      <asp:ListItem Text= "Schimb1" Value="Schib1"></asp:ListItem>
-                     <asp:ListItem Text= "Schimb2" Value="Schimb2"></asp:ListItem>
-                    <asp:ListItem Text= "Schimb3" Value="Schimb3"></asp:ListItem>
-                    
+                      <asp:ListItem Text= "Orange" Value="Orange"></asp:ListItem>
+                     <asp:ListItem Text= "Blue" Value="Blue"></asp:ListItem>
+                    <asp:ListItem Text= "Yellow" Value="Yellow"></asp:ListItem>
+                    <asp:ListItem Text= "Green" Value="Green"></asp:ListItem>
                  </asp:DropDownList>
                 &nbsp;&nbsp;
-                <asp:Button ID="Button2" Font-Bold="true" Font-Size="20px" runat="server" Text="Genereaza Schimb" />
+                <asp:Button ID="Button2" Font-Bold="true" Font-Size="20px" runat="server" Text="Genereaza Schimb" OnClick="OnClickA" />
              </p>
              <p style="margin-top:20px;margin-left:100px">
                 <asp:Label ID="Label2" ForeColor="Orange" Font-Size="20px" runat="server" Text="Raport General"></asp:Label>
@@ -71,7 +71,7 @@
                   &nbsp;&nbsp;
                  <asp:TextBox ID="TextBox9" TextMode="Time" Width="150px"  runat="server"></asp:TextBox>
                   &nbsp;&nbsp;
-                <asp:Button ID="Button1" Font-Bold="true" Font-Size="20px" runat="server" Text="Genereaza Raport"/>
+                <asp:Button ID="Button1" Font-Bold="true" Font-Size="20px" runat="server" Text="Genereaza Raport" OnClick="OnClickB"/>
                  <br/>
                  <asp:Label ID="Label5" ForeColor="Orange" Font-Size="20px" runat="server" Text=""></asp:Label>
              </p>

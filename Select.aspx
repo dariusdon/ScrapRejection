@@ -20,14 +20,15 @@
              <asp:Label ID="Label4" Font-Bold="true" Font-Size="35px" ForeColor="Orange" runat="server" Text="Pagina Selectie"></asp:Label>
              <br/>
              <br/>
-            <div style="margin-left: -200px; margin-top:100px">
-                <asp:Button ID="Button1" runat="server" Text="Scanare Masina TB" Width="600px" Height="150px" Font-Bold="true" Font-Size ="35px" OnClick="OnClick1"/>
-                <br/>
-                <br/>
-                <asp:Button ID="Button2" runat="server" Text="Scanare Statie Rework" Width="600px" Height="150px" Font-Bold="true" Font-Size ="35px" OnClick ="OnClick2"/>
-                <br/>
-                <br/>
-                 <asp:Button ID="Button3" runat="server" Text="Scanare Masina Apex/Bead" Width="600px" Height="150px" Font-Bold="true" Font-Size ="35px" OnClick ="OnClick3"/>
+            <div style="margin-left: -100px; margin-top:200px">
+                <asp:Label style="margin-left:100px" Font-Size="30px" ForeColor="Orange" runat="server" Text="Scaneaza Masina:"></asp:Label>
+                <br />
+                <br />
+                <asp:TextBox Font-Bold="true" style="margin-left:100px" ID="TextBox1" Width="200px" Font-Size="25px" runat="server"></asp:TextBox>
+                <br />
+                <br />
+                <asp:Button style="margin-left:100px" ID="Button1" runat="server" Text="Salveaza" Width="210px" Height="50px" Font-Bold="true" Font-Size ="30px" OnClick="OnClick1"/>
+                
             </div>
         </div>
     </form>
